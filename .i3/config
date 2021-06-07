@@ -277,6 +277,8 @@ mode "resize" {
 
 # Lock screen
 bindsym $mod+9 exec --no-startup-id blurlock
+#bindsym $mod+9 exec --no-startup-id "i3lock -c 1E2235"
+#bindsym $mod+9 exec --no-startup-id "i3lock [-c 000000] [-o 2A1010] [-w 2A1010] [-l ffffff]"
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
