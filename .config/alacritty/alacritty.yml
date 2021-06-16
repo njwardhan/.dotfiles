@@ -180,8 +180,8 @@ font:
 colors:
   # Default colors
   primary:
-     background: '#000000'
-  #  foreground: '#c5c8c6'
+    background: '#000000'
+    #foreground: '0xbbc2cf'
 
     # Bright and dim foreground colors
     #
@@ -248,6 +248,31 @@ colors:
   #selection:
   #  text: CellBackground
   #  background: CellForeground
+
+  selection:
+    text: '0xbbc2cf'
+
+  # Normal colors
+  normal:
+    black:   '0x1c1f24'
+    red:     '0xff6c6b'
+    green:   '0x98be65'
+    yellow:  '0xda8548'
+    blue:    '0x51afef'
+    magenta: '0xc678dd'
+    cyan:    '0x5699af'
+    white:   '0x202328'
+
+  # Bright colors
+  bright:
+    black:   '0x5b6268'
+    red:     '0xda8548'
+    green:   '0x4db5bd'
+    yellow:  '0xecbe7b'
+    blue:    '0x3071db'   
+    magenta: '0xa9a1e1'
+    cyan:    '0x46d9ff'
+    white:   '0xdfdfdf'
 
   # Normal colors
   #normal:
