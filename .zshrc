@@ -99,3 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Remove unwanted/orphaned packages
+# Solesh at it again
+function rmdep() {
+  sudo pacman -R `pacman -Qdt | cut -d' ' -f1`
+}
