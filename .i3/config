@@ -8,8 +8,9 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 1
-default_floating_border normal
+# default_border pixel 0
+# default_floating_border none
+for_window [class=".*"] border none
 
 # Hide borders
 hide_edge_borders none
