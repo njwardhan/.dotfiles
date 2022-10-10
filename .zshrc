@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 function rmdep() {
   sudo pacman -R `pacman -Qdt | cut -d' ' -f1`
 }
+
+export PATH="$HOME/.poetry/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
